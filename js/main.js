@@ -304,7 +304,7 @@
                 o
                   .addClass("success")
                   .html(
-                    `Thank you ${json.data.name} for your message. It has been sent successfully.`
+                    `Thank you ${json.data.name} for your message. It has been sent successfully. Kindly, check your mailbox for confirmation.`
                   )
                   .fadeIn(200),
                   setTimeout(function () {
