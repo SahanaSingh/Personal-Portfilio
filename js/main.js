@@ -299,7 +299,7 @@
             })
               .then((response) => response.json())
               .then((json) => {
-                // console.log(json);
+                console.log(json);
                 a.removeClass("wait").html("Sent!").addClass("success");
                 o
                   .addClass("success")
